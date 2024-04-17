@@ -1,0 +1,45 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    color: #333;
+  }
+  
+  .stopwatch {
+    text-align: center;
+    margin-top: 50px;
+  }
+  
+  .display {
+    font-size: 36px;
+    color: #333;
+  }
+  
+  .controls {
+    margin-top: 20px;
+  }
+  
+  button {
+    padding: 10px 20px;
+    margin: 0 5px;
+    background-color:red;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: green;
+  }
+  
+  .lap-list {
+    margin-top: 20px;
+    padding: 0;
+    list-style-type: none;
+  }
+  
+  .lap-list li {
+    margin-bottom: 5px;
+  }
+  
